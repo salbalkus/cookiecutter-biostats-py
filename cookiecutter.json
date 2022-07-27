@@ -1,6 +1,6 @@
 {
     "full_name": "Salvador Balkus",
-    "email": "sbalkus@g.harvard.edu",
+    "email": "sbalkus at g dot harvard dot edu",
     "project_name": "Project name",
     "project_slug": "{{cookiecutter.project_name.lower().replace(' ', '-')}}",
     "project_desc": "Project description",
