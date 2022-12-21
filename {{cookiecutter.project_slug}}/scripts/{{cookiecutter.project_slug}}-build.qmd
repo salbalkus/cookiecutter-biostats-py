@@ -1,0 +1,31 @@
+---
+title: "{{cookiecutter.project_slug}}-build"
+format: html
+editor: visual
+jupyter: python3
+---
+
+# Title
+
+Explain what this notebook does here.
+
+```{python}
+import numpy as np
+import pandas as pd
+import random
+from watermark import watermark
+
+# Print the system information used to run this analysis
+
+seed = 10
+random.seed(seed)
+print(watermark() + watermark(iversions=True, globals_=globals()) + "\nseed : {}".format(seed))
+```
+
+## Step 1: Data
+
+Explain the data. Host it on Figshare or Zenodo.
+
+## Step 2:
+
+Explain the next step of your analysis.
